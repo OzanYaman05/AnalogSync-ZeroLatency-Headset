@@ -24,21 +24,21 @@ Anyone can build this! Here is the complete list of parts:
 * 1x RDA5807M FM Stereo Receiver Module
 * 1x TDA1308 Class-AB Headphone Amplifier
 * 2x 32mm 8-Ohm Speakers
-* 2x 3.7V Li-Po Battery & Charging Module (e.g., TP4056) or 4x aa battery
+* 2x 3.7V Li-Po Batteries & Charging Module (e.g., TP4056) **OR** 4x AA Batteries
 * Assorted Capacitors & Resistors (See Schematics)
 
 **Transmitter (The Base Station):**
 * 1x Arduino (Nano or Uno)
-* 1x KT0803L FM Transmitter Module
+* 1x KT0803L FM Transmitter Module *(Note: Almost any standard FM transmitter module can work!)*
 * 2x Push Buttons (For frequency tuning)
 * Audio Jack / Aux Cable
- (any fm transmitter module works)
+
 ---
 
 ## 🚀 How to Build It (DIY Guide)
 
-### Step 1: 3D Print the Enclosure
-Navigate to the `/Mechanical` folder. You will find the `.STL` files for the left/right ear cups and the headband. Print them using PLA or PETG (20% infill is recommended for durability).
+### Step 1: 3D Print or Remix the Enclosure
+Navigate to the `/Mechanical` folder. As a true open-source hardware project, we currently provide the raw **Fusion 360 (`.f3d`) source files**. You can modify the parametric design to fit your head perfectly, and export the `.STL` files directly from your software to print using PLA or PETG (20% infill is recommended). *(Pre-sliced .STL files will be added in the future!)*
 
 ### Step 2: The Hardware & Solder
 Check the `/Hardware` folder for the wiring diagram. 
